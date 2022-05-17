@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Internal css</title>
+	<link rel="shortcut icon" href="../../flamingo.png" type="image/x-icon">
+
+  <style>
+    *{
+      box-sizing:border-Box;
+    }
+    body{
+      /* The class selector chooses html elements with a class attribute. To select elements with a specific class write a period character followed by the class name */
+       background-image: linear-gradient(to left,#00f,#100);
+      
+       background-image:url("clouds2.jpg");
+       background-size: 100%;
+      background-repeat: no-repeat;
+   
+    }
+    .header{
+      background-image:repeating-conic-gradient(royalblue 15%,plum 60%, purple 25%);
+      text-align: center;
+      padding:20px;
+      margin:5px;
+      width: 75%;
+    }
+    /*The id selector use4s the id attribute of html element to select a specific amount. The id element is unique within a page so the id selector is used to select one unique element to select and element with a specific id type a hashtage (#) character followed by the elements id */
+    h1{
+      color:white;
+    }
+    .topnav{
+      background-color:grey;
+      overflow:hidden;
+    }
+    
+    /* This one will onlly affect the html element with the id="iname" ID selector*/
+    /*select*/
+    #demobox h1{
+      /*the group selector selects all the html elements with the same style definitions. */
+      /* Its better to group the selectors, to minimize the code to group selectors. They seperate each selector with a comma (h1,h2*/
+      color:white;
+      /*CSS combinators A combinator is something that explains the relationship between the selectors. A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.There are four different combinators in CSS:descendant selector (space)child selector (>)adjacent sibling selector (+)general sibling selector (~)*/
+      /*A pseudo-class is used to define a special state of an element.For example, it can be used to:Style an element when a user mouses over it Style visited and unvisited links differently Style an element when it gets focus */
+    }
+      [target]{
+        background-color:Blue;
+      }
+
+
+
+    }
+    </style>
+	</head>
+ 	<body style="background-color:hotpink"> <center> <a href="https://webacademy2021.angelinalynch.repl.co/"><img src="../../banana.png" width="75%">
+   </a> <div class="topnav">
+    <a href="../../Labs/Lab1/lab1.html">LAB 1 </a>
+      <a href="../../Labs/Lab2/lab2.html">LAB 2 </a>
+      <a href="../../Labs/Lab3/lab3.html">LAB 3 </a>
+      <a href="../../Labs/Lab4/lab4.html">LAB 4 </a>
+      <a href="../../Labs/Lab5/lab5.html">LAB 5 </a>
+      <a href="../../Labs/Lab6/lab6.html">LAB 6 </a>
+      <a href="../../Labs/Lab7/lab7.html">LAB 7 </a>
+      <a href="../../Labs/Lab8/lab8.html">LAB 8 </a>
+      <a href="../../Labs/Lab9/lab9.html">LAB 9 </a>
+      <a href="../../Labs/Lb10/lb10.html">LAB 10 </a>
+      <a href="../../Labs/Lb11/lb11.html">LAB 11 </a>
+      <a href="../../Labs/Lb12/lb12.html">LAB 12 </a>
+      <a href="../../Labs/Lb13/lb13.html">LAB 13 </a>
+      <a href="../../Labs/Lb14/lb14.html">LAB 14 </a>
+      <a href="../../Labs/Lb15/lb15.html">LAB 15 </a>
+      <a href="../../Labs/Lb16/lb16.html">LAB 16 </a>
+      <a href="../../Labs/Lb17/lb17.html">LAB 17 </a>
+      <a href="../../Labs/Lb18/lb18.html">LAB 18 </a>
+      <a href="../../Labs/Lb19/lb19.html">LAB 19 </a>
+      <a href="../../Labs/Lb20/lb20.html">LAB 20 </a>
+      </div>
+      <div class="header">
+		<h1>Thomas A. Edison CTE HS</H1>
+		<h2>Web Developer Academy</h2>
+		<h3>10th Grade</h3>
+		<h4>Lab 15 </h4>
+		<h5>Intro to Hyper Text Markup Language</h5>
+		<h6> By Angelina Lynch</h6>
+    <a href="../../index.html">Return to homepage</a>
+    </div>
+
+    <div id="demobox">
+    <h1> Angelina </h1>
+    <h1> Lynch </h1>
+    <h1> Feb-9-22 </h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdowncontent{
+  display:none;
+  position:absolute;
+  background-color:lightblue;
+  min-width:160px;
+  box-shadow:0px 8px 16px 0px;
+  padding:12px 16px;
+  z-indez:1;
+  color:black;
+  text:decoration:none;
+}
+.dropdown:hover .dropdowncontent{
+  display:block
+}
+.drpMenu{
+  Background-color: aquamarine;
+  color: steelblue;
+  padding:12px 16px ;
+  font-size:16px;
+  border:1px solid black;
+  cursor:pointer;
+}
+/* change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .drpMenu{
+  background-color:pink;
+  color: deeppink;
+}
+
+/*links inside the dropdown*/
+.dropdown a {
+ color:steelblue;
+  background-color: lightpink;
+  border:1px soild black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: none;
+  border:0.1px solid white;
+}
+.dropdown:hover a{
+  display: block;
+}
+.dropdown:hover a:hover {
+  color: lightpink;
+  background-color: steelblue;
+}
+.dropdown img{
+  border:10px dotted deeppink;
+}
+.caption{
+  text-align:center;
+  padding:15px;
+  display:none;
+}
+.dropdowncontent:hover .caption{
+  display:block;
+  color:deeppink;
+  background-color;steelblue;

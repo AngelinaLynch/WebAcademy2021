@@ -1,0 +1,59 @@
+/* Line 3 sizses the box and gives the outline its shape*/
+*{
+ box-sizing: border-box; 
+}
+/*Line 6 tells the body what to do and how to change the original page */
+body{
+  background-color: rgb(118, 42, 241);
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(141, 250, 77);
+}
+/*style of the header */
+
+
+
+.header{
+Background-color: rgba(138, 217, 243, 0.397);
+Padding: 20px;
+Text-align:Center;
+color: rgba(253, 253, 253, 0.911);
+}
+
+
+
+/*syle of the navigation bar*/
+.topnav{
+Background-color: lightblue;
+ overflow: hidden;
+}
+
+
+ /*style the links inside the navigation bar*/
+.topnav a{
+  color:lightseagreen;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 14px;
+}
+/*changes color on hover or mouse over*/
+.topnav a:hover{
+  Background-color: lightgoldenrodyellow;
+  color: lightseagreen;
+}
+
+
+/*creates 3 equal colums that float next to each other*/
+.column{
+  float: left;
+  width:33.33%;
+  padding:15px;
+ border-right:4px solid rgba(2, 100, 248, 0.493);
+ border-radius: 20px;
+   box-shadow: 5px 10px;
+ background-color: rgba(236, 243, 238, 0.411)
+
+}

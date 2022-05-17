@@ -1,0 +1,34 @@
+#pp{
+  color: #180ad6;
+  border: 2px solid #8888ec;
+  position:relative;
+  background-color:#ff94cd;
+  padding:15px;
+  height:200px;
+  width:200px;
+}
+button{
+  color: steelblue;
+  background-color: lightsteelblue;
+  border-color: #22586d;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+  color:#f05c74;
+  background-color:pink;
+  border-color: deeppink;
+}
+h1{
+  color:steelblue;
+}
+h2{
+   color:steelblue;
+}
+h3{
+   color:steelblue;
+}
+h4{
+   color:steelblue;
+}
+h6{ color:steelblue;}
+h5{ color:steelblue;}

@@ -1,0 +1,110 @@
+body{
+  background: url("backgroundpic.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+ 
+  
+}
+h1{
+ font-family: "Lucida Console", "Courier New", monospace;
+  color:#6c996f;
+   text-shadow: 4px 2px 8px #bac2b7;
+  text-decoration: underline wavy white 5px;
+  text-decoration-thickness: 2px;
+}
+h3{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:#ffffff;
+  border: 3px double #ffffff;
+  margin: 0;
+  padding: 6px 0;
+ border-radius: 45px;
+   width: 20%;
+    color:#72a176;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+  text-shadow: 2px 2px 8px #b2eca2;
+
+
+}
+
+     .highlight {
+    background: linear-gradient(120deg, #02a23f 0%, #02504a 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: 0 60%;
+}
+p{
+  
+  color:white;
+    width: 300px;
+  border: 5px solid white;
+  padding: 20px;
+  margin: 8px;
+  background: rgba(76, 175, 80, 0.3)
+ 
+}
+img{
+  float:right;
+  position: relative;
+bottom:400px;
+  border: 5px solid #55a556;
+}
+ul{
+  color:#5a965e;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+   text-shadow: 4px 2px 8px #f7fff5;
+  left: 1000px;
+  position: relative;
+bottom:9px;
+  
+}
+h4{
+  color:#668a71 ;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+  text-shadow: 2px 2px 8px #000000;
+  left: 1000px;
+  position: relative;
+bottom:9px;
+  
+}
+h2{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:#ffffff;
+  border: 3px double #ffffff;
+margin-left: auto;
+margin-right: auto;
+border-radius: 45px;
+width: 20%;
+   position: relative;
+bottom:500px;
+  left: 20px;
+  color:#698c6d;
+font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+text-shadow: 2px 2px 8px #000000;
+
+
+
+}
+.dog{
+  color:#00ff04
+font-family: "Lucida Console", "Courier New", monospace;
+position: relative;
+bottom:500px;
+  width: 400px;
+left:500px;
+  padding: 50px;
+  margin: 20px;
+  
+
+}
+.home{
+ float:right;
+  position: relative;
+bottom:520px;  
+}

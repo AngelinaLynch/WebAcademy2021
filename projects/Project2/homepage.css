@@ -1,0 +1,16 @@
+body{
+  background: url("palmtree.jpeg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+img {
+  opacity: 0.5;
+}
+h3{
+  
+}
+a{
+  color:hotpink;
+}
+
